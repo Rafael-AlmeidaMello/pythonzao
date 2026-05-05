@@ -74,5 +74,51 @@
 #    print(f"seu salario liquido é {desconto5:.2f}")
 
 # 8 Exercício
-    
 
+#user = "admin"
+#password = "1234"
+
+#passo1 = input("Digite o seu usuário de login: ")
+#passo2 = input("Digite sua senha de usuário: ")
+
+#if passo1 == user and passo2 == password:
+#    print("Parabéns! Você efetuou a etapa de login")
+#else:
+#    print("Usuário ou senha incorreta...")
+
+# 9 Exercício
+
+#numero1 = float(input("Digite o primeiro número: "))
+#numero2 = float(input("Digite o segundo número: "))
+
+#operacao = input("Digite a operação: +, - , *, / ")
+
+#match operacao:
+#    case "+":
+#        resposta = numero1 + numero2
+#    case "-":
+#        resposta = numero1 - numero2
+#    case "*":
+#        resposta = numero1 * numero2
+#    case "/":
+#        resposta = numero1 / numero2
+#    case _ :
+#        print("Você não selecionou nenhuma das opções, programa finalizado.")
+
+#print(f"O resultado é {resposta}")
+
+# 10 Exercício
+
+peso = float(input("Digite o seu peso: "))
+altura = float(input("Digite a sua altura em metros(exemplho: 1.88): "))
+
+imc = peso / (altura * altura)
+
+if imc < 18.5:
+    print(f"Você está abaixo do peso, seu IMC é {imc:.2f}")
+elif imc >= 18.5 and imc <= 24.9:
+    print(f"Você possui peso normal, seu IMC é {imc:.2f}")
+elif imc > 24.9 and imc < 30:
+    print(f"Você possui sobrepeso, seu IMC é {imc:.2f}")
+else:
+    print(f"Você é obeso")
